@@ -7,11 +7,18 @@
 [class*="col-"] {
   min-height: 50px;
   background-color: rgb(0 108 250);
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.border [class*="col-"] {
   border: 1px solid white;
   color: white;
   text-align: center;
 }
 
-h2 {
-  margin: 20px 0;
+.offset {
+  border: 1px solid white;
 }
